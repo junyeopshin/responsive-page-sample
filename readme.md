@@ -38,5 +38,23 @@
 - 파일 추가
   - git add .
 - 수정 내용 커밋하기
-- git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성" (커밋내용)
+  - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성" (커밋내용)
 - gitHub repository에 최초 업로드
+  - git remote add origin https://github.com/junyeopshin/responsive-page-sample.git
+  - git push -u origin main
+- gitHub 상태 확인
+  - git status
+- gitHub repository 업데이트
+  - git add .
+  - git commit -m "커밋내용"
+  - git push origin main
+
+### repository 클론하기
+
+- repository와 같은 이름의 폴더 생성
+- git clone "본인 레포지토리 주소" ./
+
+### 최종 코드로 업데이트 하기
+
+- git fetch
+- git merge origin/main
