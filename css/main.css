@@ -82,6 +82,7 @@
   color: #444;
 }
 .section article div p {
+  margin-bottom: 1rem;
   font-size: 1.2rem;
   line-height: 1.25;
   color: #777;
